@@ -1,0 +1,1 @@
+nasdaq_key = 'EPpwWF3E6RSntY31_s_M'
