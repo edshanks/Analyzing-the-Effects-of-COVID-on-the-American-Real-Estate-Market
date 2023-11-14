@@ -40,4 +40,25 @@ To answer this question, we chose to build on the analysis from the first questi
 
 Although this chart lends more evidence to the hypothesis that home prices increased more quickly after the onset of covid, it does not provide the information needed to accurately compare real estate markets with one another. In order to quantitatively compare the price evolution in these markets, we had to first create a ratio between the price velocity for 2017-2019 and the price velocity for 2020-2022. We chose to use percent change as our ratio. Percent change was calculated using the formula:<br>
 
-% change = ( 〖price velocity〗_(2020-2022)- 〖price velocity〗_(2017-2019))/〖price velocity〗_(2017-2019) ×100
+% change = [((price velocity 2020-2022)- (price velocity 2017-2019))/(price velocity 2017-2019)] ×100<br>
+
+Percent change can also be referred to as price acceleration, seeing as it the rate of change of the rate of change of housing prices with respect to time. These two terms will be used interchangeably from this point on. Below is a data frame containing the price velocity for each time period for each city and the resulting percent change, or price acceleration. The data is arranged by percent change in descending order.<br>
+
+![](output/rate_of_price_change_df.png)<br>
+
+We then used a horizontal bar plot to plot the percent change of each metro area.<br>
+
+![](output/percent_change_bar.png)<br>
+
+Our second hypothesis is that there are some metro areas whose real estate markets grew at abnormally fast rates. For the sake of this study, we use price acceleration as the metric for the growth of a market and we designate an abnormally fast rate as a price acceleration which is a statistical outlier in the data set. To determine if there were any statistical outliers in the data set, we created a box plot using the price accelerations of each metro area in the expanded data set and got the following:<br>
+
+![](output/box_plot.png)<br>
+
+Based on the box plot, this data is normally distributed. The mean and median are very close to one another and each of the legs has a very similar length. There are, however, two outliers on the right end of the distribution. These two outliers are New Orleans, Louisiana and Austin, Texas. This confirms that the New Orleans and Austin metro area real estate markets grew at abnormally fast rates well beyond those of any other cities in the data sample.<br>
+
+### Is there any correlation between the geographic location of a real estate market and the rate at which home prices accelerated in that market?
+To answer this question, we used the Geoviews module in Python to create an interactive map of the United States. We included each city from the expanded data sample and set the size parameter for each city to the corresponding price acceleration. Below is a screenshot of the Geoviews plot. The link to the interactive plot can be found directly below the plot.<br>
+
+![](https://sites.google.com/view/mapplot/home)
+
+
