@@ -24,9 +24,9 @@ We chose to plot each of the eight markets individually and separate the plot in
 
 ![](output/Fig_Atlanta.png)<br>
 ![](output/Fig_Houston.png)<br>
-![](output/Fig_Los Angeles.png)<br>
+![](output/Fig_Los%20Angeles.png)<br>
 ![](output/Fig_Miami.png)<br>
 ![](output/Fig_Minneapolis.png)<br>
-![](output/Fig_New York.png)<br>
+![](output/Fig_New%20York.png)<br>
 ![](output/Fig_Seattle.png)<br>
-![](output/Fig_St. Louis.png)<br>
+![](output/Fig_St.%20Louis.png)<br>
