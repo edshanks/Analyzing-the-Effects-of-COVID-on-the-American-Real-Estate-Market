@@ -59,6 +59,24 @@ Based on the box plot, this data is normally distributed. The mean and median ar
 ### Is there any correlation between the geographic location of a real estate market and the rate at which home prices accelerated in that market?
 To answer this question, we used the Geoviews module in Python to create an interactive map of the United States. We included each city from the expanded data sample and set the size parameter for each city to the corresponding price acceleration. The link to the interactive plot can be found here [https://sites.google.com/view/mapplot/home]<br>
 
+The Geoviews module also allowed us to determine the latitude and longitude of each metro area. We then performed correlation tests using these geographical coordinates to determine if there is any correlation between a metro area’s price acceleration and geographic location. First, we plotted each market’s longitude versus its price acceleration on a scatter plot and ran a linear regression of the scatter plot. We also calculated the r and p-values for each correlation test. We did the same for latitude and got the following plots and values:<br>
+
+#### Longitude vs Percent Change
+![](lon_vs_percentchange.png)<br>
+With an r-value of only -0.024, there is almost no correlation between longitude and percent change. The p-value of 0.89 indicates that the null hypothesis (i.e. longitude has no correlation with the price acceleration) is true, further supporting the hypothesis that there is no discernable correlation between price acceleration and longitude.<br>
+
+#### Latitude vs Percent Change
+![](lat_vs_percentchange.png)<br>
+With an r-value of -0.65, there is a moderate negative correlation between latitude and percent change, meaning that the further south a city is located, the greater the price acceleration. The p-value of 〖1.50 ×10〗^(-5) indicates that the null hypothesis (i.e. latitude has no correlation with the price acceleration) is false, further supporting the hypothesis that there is in fact a correlation between a metro area’s latitude and its price acceleration.<br>
+
+### Conclusions
+*	Based on our analysis, home prices increased sharply across the country during the COVID-19 pandemic. 
+*	Some metropolitan areas experienced an abnormally sharp rise in home prices, in particular New Orleans and Austin, both of which were statistical outliers in the expanded data set.
+*	There is a moderate negative correlation between the price acceleration of a metropolitan area and its latitude. The significance of this correlation is validated by an extremely low p-value.
+
+
+
+
 
 
 
