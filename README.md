@@ -30,3 +30,14 @@ We chose to plot each of the eight markets individually and separate the plot in
 ![](output/Fig_New%20York.png)<br>
 ![](output/Fig_Seattle.png)
 ![](output/Fig_St.%20Louis.png)<br>
+
+Based on the charts, it is clear from these graphs that the home prices increased more quickly between 2020 and 2022 than they did between 2017 and 2019 for each housing market that we included in the sample.<br>
+
+### Did any US real estate markets experience an abnormally sharp rise in home prices?
+To answer this question, we chose to build on the analysis from the first question. First, we expanded our data sample to include 37 metro areas from around the country. We then plotted the price from 2017 to 2022 using sublots for 2017-2019 and 2020-2022 for each city in the expanded sample. We then used a linear regression to calculate the slopes of each subplot for each metro area. These slopes represent the price velocity, or the rate of price change with respect to time, for a given time period. Here are the price velocities for each city plotted as a stacked bar chart:
+
+![](output/percent_change_stacked_bar.png)<br>
+
+Although this chart lends more evidence to the hypothesis that home prices increased more quickly after the onset of covid, it does not provide the information needed to accurately compare real estate markets with one another. In order to quantitatively compare the price evolution in these markets, we had to first create a ratio between the price velocity for 2017-2019 and the price velocity for 2020-2022. We chose to use percent change as our ratio. Percent change was calculated using the formula:<br>
+
+% change = ( 〖price velocity〗_(2020-2022)- 〖price velocity〗_(2017-2019))/〖price velocity〗_(2017-2019) ×100
