@@ -59,6 +59,6 @@ Based on the box plot, this data is normally distributed. The mean and median ar
 ### Is there any correlation between the geographic location of a real estate market and the rate at which home prices accelerated in that market?
 To answer this question, we used the Geoviews module in Python to create an interactive map of the United States. We included each city from the expanded data sample and set the size parameter for each city to the corresponding price acceleration. Below is a screenshot of the Geoviews plot. The link to the interactive plot can be found directly below the plot.<br>
 
-![](https://sites.google.com/view/mapplot/home)
+[](https://sites.google.com/view/mapplot/home)
 
 
