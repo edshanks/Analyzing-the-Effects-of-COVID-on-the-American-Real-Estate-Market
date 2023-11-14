@@ -22,11 +22,11 @@ The monthly sales prices are in a constant uptrend for every city within this ti
 
 We chose to plot each of the eight markets individually and separate the plot into two distinct timeframes, namely 2017 – 2019 (i.e. pre-covid) and 2020 – 2022 (i.e. during covid).<br>
 
-![](output/Fig_Atlanta.png)<br>
+![](output/Fig_Atlanta.png)
 ![](output/Fig_Houston.png)<br>
-![](output/Fig_Los%20Angeles.png)<br>
+![](output/Fig_Los%20Angeles.png)
 ![](output/Fig_Miami.png)<br>
-![](output/Fig_Minneapolis.png)<br>
+![](output/Fig_Minneapolis.png)
 ![](output/Fig_New%20York.png)<br>
-![](output/Fig_Seattle.png)<br>
+![](output/Fig_Seattle.png)
 ![](output/Fig_St.%20Louis.png)<br>
