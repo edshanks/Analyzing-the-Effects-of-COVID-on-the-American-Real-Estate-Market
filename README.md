@@ -62,15 +62,11 @@ To answer this question, we used the Geoviews module in Python to create an inte
 The Geoviews module also allowed us to determine the latitude and longitude of each metro area. We then performed correlation tests using these geographical coordinates to determine if there is any correlation between a metro area’s price acceleration and geographic location. First, we plotted each market’s longitude versus its price acceleration on a scatter plot and ran a linear regression of the scatter plot. We also calculated the r and p-values for each correlation test. We did the same for latitude and got the following plots and values:<br>
 
 #### Longitude vs Percent Change
-
-![](lon_vs_percentchange.png)<br>
-
+![](output/lon_vs_percentchange.png)<br>
 With an r-value of only -0.024, there is almost no correlation between longitude and percent change. The p-value of 0.89 indicates that the null hypothesis (i.e. longitude has no correlation with the price acceleration) is true, further supporting the hypothesis that there is no discernable correlation between price acceleration and longitude.<br>
 
 #### Latitude vs Percent Change
-
-![](lat_vs_percentchange.png)<br>
-
+![](output/lat_vs_percentchange.png)<br>
 With an r-value of -0.65, there is a moderate negative correlation between latitude and percent change, meaning that the further south a city is located, the greater the price acceleration. The p-value of 〖1.50 ×10〗^(-5) indicates that the null hypothesis (i.e. latitude has no correlation with the price acceleration) is false, further supporting the hypothesis that there is in fact a correlation between a metro area’s latitude and its price acceleration.<br>
 
 ### Conclusions
